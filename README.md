@@ -8,4 +8,9 @@ remote sensing
 基于LAPACK的sgelss接口实现大规模SVD分解，求解最小二乘问题，使用OpenMP实现多线程并行计算，对反演
 过程中的像素级计算进行并行化，显著提升处理效率。
 
-采用make
+采用make编译
+
+make all
+msbas config.txt
+
+
